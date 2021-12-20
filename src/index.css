@@ -1,0 +1,9 @@
+.container-rp {
+  position: relative;
+}
+
+.r-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

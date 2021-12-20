@@ -16,7 +16,7 @@ export const VideosList = () => {
   }, [])
 
   return (
-    <div>
+    <div className='row'>
       { videos.map((video) => {
         return <VideoItem video={ video }/>
       }) }
